@@ -1,0 +1,41 @@
+{
+    "name": "belniakmedia/craft-allow-nbsp-twig-filter",
+    "description": "asdf",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "allow nbsp &nbsp; twig filter"
+    ],
+    "support": {
+        "docs": "https://github.com/BelniakMedia/craft-allow-nbsp-twig-filter/allow-nbsp-twig-filter/blob/master/README.md",
+        "issues": "https://github.com/BelniakMedia/craft-allow-nbsp-twig-filter/allow-nbsp-twig-filter/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Belniak Media, Inc.",
+            "homepage": "https://belniakmedia.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "belniakmedia\\craftAllowNbsp\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Allow &nbsp; Twig Filter",
+        "handle": "craft-allow-nbsp-twig-filter",
+        "developer": "Belniak Media, Inc.",
+        "developerUrl": "https://belniakmedia.com",
+        "documentationUrl": "https://github.com/BelniakMedia/craft-allow-nbsp-twig-filter/allow-nbsp-twig-filter/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/BelniakMedia/craft-allow-nbsp-twig-filter/allow-nbsp-twig-filter/master/CHANGELOG.md",
+        "class": "belniakmedia\\craftAllowNbsp\\AllowNbspTwigFilter"
+    }
+}
