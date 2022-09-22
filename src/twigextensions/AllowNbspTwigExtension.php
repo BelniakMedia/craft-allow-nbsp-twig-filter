@@ -1,6 +1,6 @@
 <?php
 /**
- * Excerptify Twig Filter plugin for Craft CMS 3.x
+ * Excerptify Twig Filter plugin for Craft CMS 4.x
  *
  * @link      http://www.belniakmedia.com
  * @copyright Copyright (c) 2017 Belniak Media Inc.
@@ -13,7 +13,7 @@ namespace belniakmedia\craftAllowNbsp\twigextensions;
  * @package   craft-allow-nbsp-twig-filter
  * @since     1.0.0
  */
-class AllowNbspTwigExtension extends \Twig_Extension
+class AllowNbspTwigExtension extends \Twig\Extension\AbstractExtension
 {
 	// Public Methods
 	// =========================================================================
@@ -32,7 +32,7 @@ class AllowNbspTwigExtension extends \Twig_Extension
 	public function getFilters()
 	{
 		return [
-			new \Twig_SimpleFilter('allowNbsp', [$this, 'allowNbsp'], ['pre_escape' => 'html', 'is_safe' => array('html')]),
+			new \Twig\TwigFilter('allowNbsp', [$this, 'allowNbsp'], ['pre_escape' => 'html', 'is_safe' => array('html')]),
 		];
 	}
 

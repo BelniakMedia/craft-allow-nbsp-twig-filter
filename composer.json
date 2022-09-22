@@ -2,7 +2,7 @@
     "name": "belniakmedia/craft-allow-nbsp-twig-filter",
     "description": "Unescape escaped nbsp entities via twig filter.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0"
+        "craftcms/cms": "^4.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -37,5 +37,13 @@
         "documentationUrl": "https://github.com/BelniakMedia/craft-allow-nbsp-twig-filter/blob/master/README.md",
         "changelogUrl": "https://raw.githubusercontent.com/BelniakMedia/craft-allow-nbsp-twig-filter/master/CHANGELOG.md",
         "class": "belniakmedia\\craftAllowNbsp\\AllowNbspTwigFilter"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }

@@ -1,11 +1,11 @@
-# Allow NBSP Twig Filter plugin for Craft CMS 3.x
+# Allow NBSP Twig Filter plugin for Craft CMS 4.x
 
 This twig filter, when applied to an escaped twig string will un-escape the &amp;amp; entity that the & in "&amp;nbsp;" was converted to by the initial escaping process. This allows content editors to insert their own non-breaking space into fields to prevent text widows on rendered pages.
 
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 4.0.0 or later. _(See tag 1.0.0 for Caft CMS 3.x)_
 
 ## Installation
 
